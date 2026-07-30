@@ -1,6 +1,6 @@
 public class Day01 {
     public static void main(String[] args) {
-        System.out.println("hello");
+
         System.out.println("Welcome to the Java Track.");
         System.out.println("My name is Sanjay S.");
         System.out.println("My goal is to become a Software Engineer.");
