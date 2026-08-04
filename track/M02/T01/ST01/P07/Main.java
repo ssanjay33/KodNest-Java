@@ -9,6 +9,6 @@ public class Main {
         System.out.println("Thursday");
         System.out.print("Friday");
         System.out.println("Saturday");
-        System.out.println("Sunday");
+        System.out.print("Sunday");
     }
 }
