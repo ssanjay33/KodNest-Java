@@ -1,0 +1,24 @@
+package track.M02.T03.P01;
+
+import java.util.Scanner;
+
+public class UserInput2 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter your age:");
+        int age = scan.nextInt();
+        System.out.println("age is:" + age);
+
+        System.out.println("Enter your height:");
+        float height = scan.nextFloat();
+        System.out.println("Height is:" + height);
+        scan.nextLine();
+
+        System.out.println("Enter your full name:");
+        String name = scan.nextLine();
+        System.out.println("Full name :" + name);
+        scan.close();
+    }
+}
